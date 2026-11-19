@@ -1,0 +1,41 @@
+CSS
+.github-button {
+  /* Changes the button's display mode so it can be centered easily */
+  display: block;
+
+  /* Adds 25px of space above the button and centers it left-to-right */
+  margin: 25px auto 0 auto;
+
+  /* Sets the background color to GitHub's dark charcoal gray */
+  background-color: #24292E;
+
+  /* Sets the text color to white */
+  color: #FFFFFF;
+
+  /* Removes the default browser border */
+  border: none;
+
+  /* Keeps the corners sharp/square to match the screenshot */
+  border-radius: 0px;
+
+  /* Adds inner space around the text (16px top/bottom, 32px left/right) */
+  padding: 16px 32px;
+
+  /* Uses a clean, standard sans-serif font */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+
+  /* Sets the size of the text */
+  font-size: 20px;
+
+  /* Keeps the font weight normal (not overly bold) */
+  font-weight: 400;
+
+  /* Changes the mouse pointer to a hand icon when hovering over the button */
+  cursor: pointer;
+}
+
+/* Changes how the button looks when a mouse hovers over it */
+.github-button:hover {
+  /* Slightly lightens the dark background when hovered */
+  background-color: #2F363D;
+}
